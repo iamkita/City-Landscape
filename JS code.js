@@ -45,7 +45,6 @@ bubble = () => {
     if (li.x < 0) li.x = w;
     if (li.y < 0) li.y = h;
   }
-
   if (time < speed) {
     time++;
   }
